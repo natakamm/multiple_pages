@@ -1,0 +1,75 @@
+* {
+    font-family: "Arial", sans-serif;http://127.0.0.1:3000/index%20copy.html
+    padding: 0;
+    margin: 0;
+  }
+  
+  .fixed {
+    background-position: top-left; }
+
+
+ header {
+    background-color: rgb(108, 182, 66);
+ }
+
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 40px;
+    display: inline-flex;  
+  }
+
+nav a:hover {
+    color: rgb(255, 72, 0);
+    display: inline-block;
+    background-color: white;
+}
+
+figcaption {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.fixed {
+    background-image: url(./Pics/maxresdefault.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 80px;
+}
+
+.fixed-text {
+    display: inline-block;
+    padding: 10px 10px;
+    height: auto;
+    width: 70%;
+    background-color: rgb(223, 201, 10);
+    position: relative; top: 40px; left: 40px;
+}
+
+.cool-start > p::first-letter {
+    font-size: 200%;  
+    font-family: ;  
+    color: chartreuse;
+}
+
+footer {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 10px;
+    border: 5px solid rgb(108, 182, 66);
+    margin-top: 40px;
+}
+
+#footerscript {
+    padding: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
